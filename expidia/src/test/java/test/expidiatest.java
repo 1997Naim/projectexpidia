@@ -34,14 +34,14 @@ public class expidiatest extends Utility{
 	 af.clickreturnflight();Thread.sleep(1000);
 	 af.clickselect();Thread.sleep(10000);
 	 af.clickcheckout();Thread.sleep(1000);
-	 /*checkout co=new checkout (driver);
-	 co.sendfirstname();Thread.sleep(1000);
-	 co.sendlastname();Thread.sleep(1000);
-	 co.putphonenumber();Thread.sleep(1000);
-	 co.selectgender();Thread.sleep(1000);
-	 co.selectmonth();Thread.sleep(1000);
-	 co.selectday();Thread.sleep(1000);
-	 co.selectyear();*/
+	 af.sendfirstname();
+	 af.sendlastname();
+	 af.putphonenumber();
+	 af.selectgender();
+	 af.selectmonth();
+	 af.selectday();
+	 af.selectyear();
+	 
 	  
   }
 }
