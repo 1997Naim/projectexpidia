@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [adhoc]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegressionofChrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="wbsite" value="https://www.expedia.com/"/>
+    <classes>
+      <class name="test.expidiatest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- test.expidiatest -->
+    </classes>
+  </test> <!-- RegressionofChrome(failed) -->
   <test thread-count="5" name="RegressionofEdge(failed)">
     <parameter name="browser" value="Edge"/>
     <parameter name="wbsite" value="https://www.expedia.com/"/>

@@ -34,13 +34,7 @@ public class expidiatest extends Utility{
 	 af.clickreturnflight();Thread.sleep(1000);
 	 af.clickselect();Thread.sleep(10000);
 	 af.clickcheckout();Thread.sleep(1000);
-	 af.sendfirstname();
-	 af.sendlastname();
-	 af.putphonenumber();
-	 af.selectgender();
-	 af.selectmonth();
-	 af.selectday();
-	 af.selectyear();
+	
 	 
 	  
   }
